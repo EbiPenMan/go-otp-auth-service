@@ -23,7 +23,7 @@ go.work
 
 # Build output
 # The compiled binary for your application.
-app
+# app
 /app
 
 # IDEs and editors
