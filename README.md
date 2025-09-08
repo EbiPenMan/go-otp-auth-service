@@ -58,11 +58,11 @@ The project follows a layered architecture to ensure a clean separation of conce
 
 4. Before running the server locally, you might need to generate the Swagger files:
     
-    # Install swag if you haven't already
+    Install swag if you haven't already
     ```bash
     go install github.com/swaggo/swag/cmd/swag@latest
     ```
-    # Generate the docs
+    Generate the docs
     ```bash
     swag init -g ./cmd/app/main.go
     ```
@@ -74,10 +74,10 @@ The project follows a layered architecture to ensure a clean separation of conce
     The server will start on `http://localhost:8080`.
 
 
-## Generate/Update Swagger docs
-```bash
-swag init -g ./cmd/app/main.go
-```
+6.  Generate/Update Swagger docs
+    ```bash
+    swag init -g ./cmd/app/main.go
+    ```
 
 ---
 
