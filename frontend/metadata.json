@@ -1,0 +1,5 @@
+{
+  "name": "User Management Dashboard",
+  "description": "A sleek dashboard to manage users with OTP-based authentication. This application provides functionality to view, search, and paginate through a list of registered users, all protected behind a secure login system.",
+  "requestFramePermissions": []
+}
