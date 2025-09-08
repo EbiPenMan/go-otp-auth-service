@@ -106,4 +106,17 @@ API documentation is generated using Swagger. Once the server is running, you ca
 
 **[http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)**
 
-![Swagger Screen Shot](/docs/swagger-screenshot.png "Swagger Screen Shot")
+![Swagger Screen Shot](docs/swagger-screenshot.png "Swagger Screen Shot")
+
+
+## Front-end
+Run these commands:
+```bash
+    cd frontend
+    npm install
+    npm run dev
+```
+
+![Front-end](docs/front-end-sing-in.png "Front-end Screen Shot")
+![Front-end](docs/front-end-otp.png "Front-end Screen Shot")
+![Front-end](docs/front-end-users.png "Front-end Screen Shot")
