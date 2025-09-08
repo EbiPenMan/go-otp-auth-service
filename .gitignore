@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when run with the
+# -o option to specify an output file.
+*.out
+
+# Go workspace file
+go.work
+
+# Environment variables
+# Never commit your environment files.
+.env
+.env.*
+!.env.example
+
+# Build output
+# The compiled binary for your application.
+app
+/app
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# macOS specific files
+.DS_Store
+
+# Vendor directory
+# While we are currently vendoring for Docker, some teams prefer not to
+# commit the vendor directory itself, relying on `go mod vendor` during CI/CD.
+# If your team prefers to commit it, you can comment out the line below.
+/vendor/
+
+# Log files
+*.log
